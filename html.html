@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit & Veggie Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Fruit & Veggie Store</h1>
+        <p>Fresh and organic produce directly from the farm.</p>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="images/apples.jpg" alt="Apples">
+                        <h3>Apples</h3>
+                        <p class="price">$3.00/lb</p>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Apples</h3>
+                        <p>Fresh and crispy organic apples.</p>
+                        <button data-product="Apples" data-price="3.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other products (up to 8) -->
+            <!-- Example for another product -->
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="images/bananas.jpg" alt="Bananas">
+                        <h3>Bananas</h3>
+                        <p class="price">$1.50/lb</p>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Bananas</h3>
+                        <p>Sweet and ripe organic bananas.</p>
+                        <button data-product="Bananas" data-price="1.50">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <p class="review">"Best apples I've ever tasted!" - Alice</p>
+        <p class="review">"Great prices and fresh produce!" - Bob</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: adityamondal0601@gmail.com</p>
+        <p>Phone: 7029298427</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fruit & Veggie Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

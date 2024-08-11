@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Harvest Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Green Harvest Market</h1>
+        <p>Fresh, Organic, and Delivered to Your Doorstep!</p>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <section id="products">
+        <h2>Our Fresh Picks</h2>
+        <div class="product-container">
+            <!-- Product Cards -->
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="apples.jpg" alt="Fresh Apples">
+                        <h3>Fresh Apples</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Crisp and sweet, perfect for snacking.</p>
+                        <p class="price">$2.00 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="tomatoes.jpg" alt="Organic Tomatoes">
+                        <h3>Organic Tomatoes</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Sun-ripened and full of flavor.</p>
+                        <p class="price">$1.50 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="lettuce.jpg" alt="Green Lettuce">
+                        <h3>Green Lettuce</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Crisp and fresh, perfect for salads.</p>
+                        <p class="price">$1.00 per head</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="bananas.jpg" alt="Organic Bananas">
+                        <h3>Organic Bananas</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Sweet and ripe, perfect for smoothies.</p>
+                        <p class="price">$0.99 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="oranges.jpg" alt="Juicy Oranges">
+                        <h3>Juicy Oranges</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Rich in Vitamin C, great for juicing.</p>
+                        <p class="price">$1.20 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="strawberries.jpg" alt="Fresh Strawberries">
+                        <h3>Fresh Strawberries</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Sweet and juicy, perfect for desserts.</p>
+                        <p class="price">$2.50 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="cucumbers.jpg" alt="Crisp Cucumbers">
+                        <h3>Crisp Cucumbers</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Fresh and crunchy, great for salads.</p>
+                        <p class="price">$1.00 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <img src="carrots.jpg" alt="Organic Carrots">
+                        <h3>Organic Carrots</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <p>Sweet and crunchy, perfect for snacking.</p>
+                        <p class="price">$1.50 per lb</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <p class="review">"Best apples I've ever tasted!" - Alice</p>
+        <p class="review">"Best bananas I've ever tasted!" - adi</p>
+        <p class="review">"Best apples I've ever tasted!" - abhi</p>
+        <p class="review">"Great prices and fresh produce!" - Bablu</p>
+        <p class="review">"Best apples I've ever tasted!" - Alice</p>
+        <p class="review">"Best apples I've ever tasted!" - Alice</p>
+        <p class="review">"Great prices and fresh produce!" - Bob</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: adityamondal0601@gmail.com</p>
+        <p>Phone: 7029298427</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fruit & Veggie Store - aditya mondal </p>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cart</h2>
+            <div id="modal-cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+            <div id="modal-total">
+                <p>Total: $0.00</p>
+            </div>
+            <button id="modal-checkout">Buy Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
